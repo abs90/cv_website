@@ -1,0 +1,174 @@
+a{
+  color: blue;
+  font-family: sans-serif;
+}
+
+
+h1 {
+  color: blue;
+}
+
+p {
+  color: black;
+}
+
+th {
+  color: Blue;
+  padding: 3px;
+}
+
+.profile-img {
+width: 300px;
+height: 300px;
+border-radius: 50%;
+background-position: center center;
+background-size: cover;
+}
+
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+}
+
+.table-skills {
+  border-collapse: collapse;
+  margin: 40px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  width: 100%;
+}
+
+.table-skills th,
+.table-skills td {
+  padding: 12px 15px;
+}
+/* Make sure that padding behaves as expected */
+* {
+  box-sizing: border-box
+}
+
+.container {
+  width: 100%;
+  /* Full width */
+  background-color: skyblue;
+  /* Grey background */
+}
+
+.skills {
+  text-align: center;
+  /* Right-align text */
+  padding-top: 10px;
+  /* Add top padding */
+  padding-bottom: 10px;
+  /* Add bottom padding */
+  color: white;
+  /* White text color */
+}
+
+.html {
+  width: 45%;
+  background-color: #4CAF50;
+}
+
+/* Green */
+.java {
+  width: 60%;
+  background-color: #2196F3;
+}
+
+/* Blue */
+.sql {
+  width: 80%;
+  background-color: #f44336;
+}
+
+
+.button_slide {
+  color: skyblue;
+  /* border: 2px solid rgb(216, 2, 134); */
+  border:0.15em solid #CCCCCC;
+  border-radius: 0px;
+  padding: 18px 36px;
+  display: inline-block;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 15px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #f44336;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+
+
+.slide_right:hover {
+  box-shadow: inset 300px 0 0 0 #f44336;
+}
+
+
+.hero {
+	background-color: #EEEEEE;
+	width: 100%;
+	height: 100%;
+	max-height: calc(100% - 50px);
+	.inner {
+		position: relative;
+		max-width: 960px;
+		height: 100%;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		padding: 40px;
+		box-sizing: padding-box;
+		z-index: 4;
+		h1 {
+			color: rgba(163,32,109,0.6);
+			font-weight: 300;
+			text-transform: uppercase;
+			margin-bottom: 0;
+			border-bottom: 2px rgba(163,32,109,0.6) dashed;
+		}
+	}
+	.overlay {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background: transparent;
+		background: -moz-linear-gradient(top,  rgba(114,81,109,0.2) 0%, rgba(238,238,238,1) 100%);
+background: -webkit-linear-gradient(top,  rgba(114,81,109,0.2) 0%,rgba(238,238,238,1) 100%);
+background: linear-gradient(to bottom,  rgba(114,81,109,0.2) 0%,rgba(238,238,238,1) 100%);
+		z-index: 3;
+	}
+	.background {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-color: #EEEEEE;
+		z-index: 1;
+		#hero-canvas {
+			width: 100%;
+			height: 100%;
+			position: relative;
+		}
+	}
+}
