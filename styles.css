@@ -93,14 +93,17 @@ background-size: cover;
 
 .button_slide {
   color: skyblue;
+  width: 45%;
   /* border: 2px solid rgb(216, 2, 134); */
   border:0.15em solid #CCCCCC;
   border-radius: 0px;
   padding: 18px 36px;
   display: inline-block;
+  font-weight: bold;
+  position: center;
   font-family: "Lucida Console", Monaco, monospace;
   font-size: 15px;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   cursor: pointer;
   box-shadow: inset 0 0 0 0 #f44336;
   -webkit-transition: ease-out 0.4s;
